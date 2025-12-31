@@ -1,11 +1,7 @@
-# Enterprise RAG (production-minded portfolio project)
+# Enterprise RAG 
 
 This repo is a small RAG system you can run locally.
 
-I built it to practice the parts hiring managers actually care about:
-- retrieval knobs you can explain
-- messy corpora (duplicates, outdated pages, inconsistent formatting)
-- debugging notes when retrieval fails
 
 
 ## Goal
