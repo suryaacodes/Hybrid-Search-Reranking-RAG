@@ -109,9 +109,4 @@ These are real “retrieval debugging” style notes:
 - **No embedding fine-tuning (yet).** I’m using off-the-shelf models to keep the repo runnable locally.
   Next step would be domain adaptation (or at least a better embedding model) once I have a labeled eval set.
 
-## What’s next
 
-- persistence: Chroma/pgvector
-- incremental ingestion (background jobs) instead of full rebuild
-- auth, rate limiting
-- tracing (OpenTelemetry) + offline eval in CI (see `app/core/eval.py`)
