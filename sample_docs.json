@@ -1,0 +1,482 @@
+[
+  {
+    "doc_id": "D001",
+    "title": "Expense Reimbursement Policy",
+    "domain": "policy",
+    "source": "policy/finance/expense_policy.md",
+    "updated_at": "2025-06-10",
+    "text": "Expense Reimbursement Policy (v2.3)\nLast updated: 2025-06-10\n\n## Overview\nEmployees may submit business expenses through the Finance Portal.\n\n## Deadlines\n- Receipts must be submitted within 30 days of the expense date.\n- Late submissions require Director approval. (See: Exceptions)\n\n## Exceptions\nIf submitted after 30 days:\n- 31–60 days: Director approval required\n- 61–90 days: VP approval required\n- >90 days: Not reimbursable\n\n## Non-reimbursable\n- Alcohol is not reimbursable.\n- Personal items, fines, and subscriptions are not reimbursable.\n\n## Notes\n\"Expense date\" means the date on the receipt, not the date you enter it.\n"
+  },
+  {
+    "doc_id": "D002",
+    "title": "Expense Reimbursement Policy (old)",
+    "domain": "policy",
+    "source": "policy/finance/expense_policy_OLD.docx.txt",
+    "updated_at": "2023-11-02",
+    "text": "Expense Reimbursement Policy (v1.8)  [OUTDATED]\nLast updated: 2023-11-02\n\nDeadlines:\n- Submit receipts within 45 days.\n- Late submissions need Manager approval.\n\nNon-reimbursable:\n- Alcohol: reimbursable only with client present (manager note required).\n"
+  },
+  {
+    "doc_id": "D003",
+    "title": "Expense Policy - copied section",
+    "domain": "notes",
+    "source": "notes/finance/expense_policy_copy.txt",
+    "updated_at": "2025-02-24",
+    "text": "## Deadlines (duplicate paste)\nReceipts must be submitted within 30 days of the expense date.\nIf submitted after 30 days, VP approval may be required depending on how late it is.\n"
+  },
+  {
+    "doc_id": "D004",
+    "title": "Travel Policy Quick Ref",
+    "domain": "policy",
+    "source": "policy/travel/travel_quick_ref.txt",
+    "updated_at": "2025-04-02",
+    "text": "TRAVEL POLICY — quick ref\nUpdated 2025/04/02\n\n1. Flights\n- Economy required for flights under 6 hours.\n- Premium economy allowed for 6–10 hours if booked 14+ days ahead.\n- Business class allowed >10 hours with Director approval.\n\n2) Hotels\nReasonable mid-range hotels. Avoid luxury unless conference rate.\n\n3) Ride share\nAirport rides are reimbursable up to $75 per trip. (See also: local limits)\n"
+  },
+  {
+    "doc_id": "D005",
+    "title": "Local travel limits - MI",
+    "domain": "policy",
+    "source": "policy/travel/local_limits_MI.md",
+    "updated_at": "2022-08-20",
+    "text": "Local travel limits (Michigan)\nUpdated: 2022-08-19\n\nAirport ride share limit: $60 per trip.\nNote: this page is rarely updated.\n"
+  },
+  {
+    "doc_id": "D006",
+    "title": "SSO Access Runbook",
+    "domain": "runbooks",
+    "source": "runbooks/it/sso_access.md",
+    "updated_at": "2025-09-01",
+    "text": "Single Sign-On (SSO) Access\nUpdated: 2025-09-01\n\nTo get SSO access:\n- Request in AccessHub\n- Choose app: Okta / GitHub / Jira\nSLA: 1 business day for standard apps.\n\nEscalation: #it-helpdesk for blocked logins.\n"
+  },
+  {
+    "doc_id": "D007",
+    "title": "Incident Response Playbook",
+    "domain": "runbooks",
+    "source": "runbooks/sre/incident_response.md",
+    "updated_at": "2024-12-12",
+    "text": "INCIDENT RESPONSE (IR) - Playbook\nLast Updated: 2024-12-12\n\n### Severity definitions\nSEV1 = customer impact or data loss\nSEV2 = degraded service\nsev3 = internal-only issue\n\n### First 10 minutes\n- create incident channel\n- assign IC + Comms\n- post initial status within 10 minutes\n\n## Post-incident\nWrite a postmortem within 5 business days.\n"
+  },
+  {
+    "doc_id": "D008",
+    "title": "VPN Reset",
+    "domain": "it",
+    "source": "it/vpn_reset.txt",
+    "updated_at": "2024-02-16",
+    "text": "If VPN fails after password change, reboot and re-enroll your device."
+  },
+  {
+    "doc_id": "D009",
+    "title": "Pager Duty",
+    "domain": "sre",
+    "source": "sre/oncall_note.txt",
+    "updated_at": "2025-08-09",
+    "text": "On-call rotations live in PagerDuty; swap by Thursday 5pm ET."
+  },
+  {
+    "doc_id": "D010",
+    "title": "Password",
+    "domain": "policy",
+    "source": "policy/security/password.txt",
+    "updated_at": "2025-11-06",
+    "text": "Minimum 14 chars. No reuse for 24 cycles."
+  },
+  {
+    "doc_id": "D011",
+    "title": "Slack Etiquette",
+    "domain": "handbook",
+    "source": "handbook/slack.txt",
+    "updated_at": "2023-11-03",
+    "text": "Use threads. Tag @here only for SEV1."
+  },
+  {
+    "doc_id": "D012",
+    "title": "PTO Policy",
+    "domain": "policy",
+    "source": "policy/hr/pto.md",
+    "updated_at": "2025-07-10",
+    "text": "### PTO Policy\nPTO accrues monthly. Carryover cap: 40 hours."
+  },
+  {
+    "doc_id": "D013",
+    "title": "PTO Policy (old)",
+    "domain": "policy",
+    "source": "policy/hr/pto_legacy.txt",
+    "updated_at": "2023-05-24",
+    "text": "### PTO Policy (old)\nCarryover cap: 80 hours (legacy for employees hired before 2021)."
+  },
+  {
+    "doc_id": "D014",
+    "title": "Expense Portal",
+    "domain": "notes",
+    "source": "notes/finance/portal_url.txt",
+    "updated_at": "2025-01-26",
+    "text": "Finance Portal URL: https://finance.example (internal)."
+  },
+  {
+    "doc_id": "D015",
+    "title": "Meal Reimbursement",
+    "domain": "policy",
+    "source": "policy/finance/meals.md",
+    "updated_at": "2025-03-30",
+    "text": "### Meal Reimbursement\nMeals reimbursable during travel up to $55/day. Alcohol excluded."
+  },
+  {
+    "doc_id": "D016",
+    "title": "Meal Reimbursement (snippet)",
+    "domain": "notes",
+    "source": "notes/finance/meals_snip.txt",
+    "updated_at": "2025-09-15",
+    "text": "### Meal Reimbursement (snippet)\nMeals: $55/day (duplicate). Keep itemized receipt."
+  },
+  {
+    "doc_id": "D017",
+    "title": "Laptop Purchase",
+    "domain": "policy",
+    "source": "policy/it/hardware.md",
+    "updated_at": "2025-02-16",
+    "text": "### Laptop Purchase\nStandard laptop refresh every 3 years; exceptions require VP approval."
+  },
+  {
+    "doc_id": "D018",
+    "title": "Laptop Purchase (faq)",
+    "domain": "faq",
+    "source": "faq/it/mac_faq.txt",
+    "updated_at": "2025-01-18",
+    "text": "Q: Can I buy a Mac? A: Only if your team approves and security signs off."
+  },
+  {
+    "doc_id": "D019",
+    "title": "Quick checklist (hr)",
+    "domain": "hr",
+    "source": "hr/quick_checklist_5.txt",
+    "updated_at": "2025-11-28",
+    "text": "SLA: 2 business days.\nSLA: 2 business days.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D020",
+    "title": "Runbook note (eng)",
+    "domain": "eng",
+    "source": "eng/runbook_note_2.txt",
+    "updated_at": "2025-06-05",
+    "text": "This page may be outdated.\nThis page may be outdated.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D021",
+    "title": "Policy addendum (sre)",
+    "domain": "sre",
+    "source": "sre/policy_addendum_9.txt",
+    "updated_at": "2025-03-31",
+    "text": "POLICY ADDENDUM\nThis page may be outdated."
+  },
+  {
+    "doc_id": "D022",
+    "title": "Policy addendum (sre)",
+    "domain": "sre",
+    "source": "sre/policy_addendum_6.txt",
+    "updated_at": "2022-09-16",
+    "text": "Limit: $75 per trip.\nLimit: $75 per trip.\nLimit: $75 per trip."
+  },
+  {
+    "doc_id": "D023",
+    "title": "Quick checklist (hr)",
+    "domain": "hr",
+    "source": "hr/quick_checklist_4.txt",
+    "updated_at": "2025-05-19",
+    "text": "# Quick checklist\nLimit: $75 per trip.\nLimit: $75 per trip."
+  },
+  {
+    "doc_id": "D024",
+    "title": "FAQ fragment (sre)",
+    "domain": "sre",
+    "source": "sre/faq_fragment_5.txt",
+    "updated_at": "2022-01-04",
+    "text": "# FAQ fragment\nEscalate to your manager if blocked.\nEscalate to your manager if blocked.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D025",
+    "title": "Quick checklist (security)",
+    "domain": "security",
+    "source": "security/quick_checklist_7.txt",
+    "updated_at": "2024-06-07",
+    "text": "# Quick checklist\nSLA: 2 business days.\nSLA: 2 business days.\nSLA: 2 business days.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D026",
+    "title": "Quick checklist (security)",
+    "domain": "security",
+    "source": "security/quick_checklist_1.txt",
+    "updated_at": "2024-08-29",
+    "text": "Approval required: Director.\nApproval required: Director."
+  },
+  {
+    "doc_id": "D027",
+    "title": "Policy addendum (eng)",
+    "domain": "eng",
+    "source": "eng/policy_addendum_6.txt",
+    "updated_at": "2024-10-02",
+    "text": "See also: Expense Reimbursement Policy.\nSee also: Expense Reimbursement Policy.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D028",
+    "title": "Meeting notes (security)",
+    "domain": "security",
+    "source": "security/meeting_notes_9.txt",
+    "updated_at": "2022-12-04",
+    "text": "# Meeting notes\nSee also: Expense Reimbursement Policy.\n----\nSee also: Expense Reimbursement Policy."
+  },
+  {
+    "doc_id": "D029",
+    "title": "Quick checklist (it)",
+    "domain": "it",
+    "source": "it/quick_checklist_9.txt",
+    "updated_at": "2023-03-07",
+    "text": "SLA: 2 business days.\nSLA: 2 business days.\n----\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D030",
+    "title": "Policy addendum (finance)",
+    "domain": "finance",
+    "source": "finance/policy_addendum_7.txt",
+    "updated_at": "2022-08-08",
+    "text": "Escalate to your manager if blocked.\nEscalate to your manager if blocked.\nEscalate to your manager if blocked.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D031",
+    "title": "Meeting notes (finance)",
+    "domain": "finance",
+    "source": "finance/meeting_notes_1.txt",
+    "updated_at": "2022-02-17",
+    "text": "# Meeting notes\nSLA: 2 business days.\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D032",
+    "title": "Policy addendum (security)",
+    "domain": "security",
+    "source": "security/policy_addendum_6.txt",
+    "updated_at": "2025-04-27",
+    "text": "SLA: 2 business days.\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D033",
+    "title": "Meeting notes (it)",
+    "domain": "it",
+    "source": "it/meeting_notes_3.txt",
+    "updated_at": "2023-02-06",
+    "text": "MEETING NOTES\nApproval required: Director.\nApproval required: Director.\nApproval required: Director.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D034",
+    "title": "Quick checklist (finance)",
+    "domain": "finance",
+    "source": "finance/quick_checklist_9.txt",
+    "updated_at": "2022-12-21",
+    "text": "# Quick checklist\nSLA: 2 business days.\n----\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D035",
+    "title": "Deprecated page (finance)",
+    "domain": "finance",
+    "source": "finance/deprecated_page_2.txt",
+    "updated_at": "2025-06-19",
+    "text": "DEPRECATED PAGE\nThis page may be outdated.\nThis page may be outdated.\n----\nThis page may be outdated."
+  },
+  {
+    "doc_id": "D036",
+    "title": "Meeting notes (security)",
+    "domain": "security",
+    "source": "security/meeting_notes_3.txt",
+    "updated_at": "2022-03-31",
+    "text": "Limit: $75 per trip.\nLimit: $75 per trip.\nLimit: $75 per trip."
+  },
+  {
+    "doc_id": "D037",
+    "title": "Deprecated page (sre)",
+    "domain": "sre",
+    "source": "sre/deprecated_page_9.txt",
+    "updated_at": "2022-01-29",
+    "text": "# Deprecated page\nSLA: 2 business days.\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D038",
+    "title": "Quick checklist (hr)",
+    "domain": "hr",
+    "source": "hr/quick_checklist_9.txt",
+    "updated_at": "2023-06-01",
+    "text": "# Quick checklist\nApproval required: Director.\nApproval required: Director."
+  },
+  {
+    "doc_id": "D039",
+    "title": "Runbook note (finance)",
+    "domain": "finance",
+    "source": "finance/runbook_note_1.txt",
+    "updated_at": "2025-07-19",
+    "text": "RUNBOOK NOTE\nSLA: 2 business days.\nSLA: 2 business days.\nSLA: 2 business days.\n----\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D040",
+    "title": "Quick checklist (security)",
+    "domain": "security",
+    "source": "security/quick_checklist_5.txt",
+    "updated_at": "2022-03-12",
+    "text": "QUICK CHECKLIST\nSubmit via the portal.\nSubmit via the portal.\n----\nSubmit via the portal."
+  },
+  {
+    "doc_id": "D041",
+    "title": "Runbook note (sre)",
+    "domain": "sre",
+    "source": "sre/runbook_note_4.txt",
+    "updated_at": "2023-04-18",
+    "text": "Approval required: Director.\nApproval required: Director.\nApproval required: Director."
+  },
+  {
+    "doc_id": "D042",
+    "title": "Meeting notes (eng)",
+    "domain": "eng",
+    "source": "eng/meeting_notes_8.txt",
+    "updated_at": "2025-08-23",
+    "text": "MEETING NOTES\nSee also: Expense Reimbursement Policy.\nSee also: Expense Reimbursement Policy."
+  },
+  {
+    "doc_id": "D043",
+    "title": "Quick checklist (security)",
+    "domain": "security",
+    "source": "security/quick_checklist_6.txt",
+    "updated_at": "2025-05-02",
+    "text": "Submit via the portal."
+  },
+  {
+    "doc_id": "D044",
+    "title": "Runbook note (hr)",
+    "domain": "hr",
+    "source": "hr/runbook_note_2.txt",
+    "updated_at": "2023-06-18",
+    "text": "RUNBOOK NOTE\nSee also: Expense Reimbursement Policy.\n----\nSee also: Expense Reimbursement Policy."
+  },
+  {
+    "doc_id": "D045",
+    "title": "Deprecated page (eng)",
+    "domain": "eng",
+    "source": "eng/deprecated_page_4.txt",
+    "updated_at": "2025-01-05",
+    "text": "# Deprecated page\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D046",
+    "title": "Meeting notes (sre)",
+    "domain": "sre",
+    "source": "sre/meeting_notes_5.txt",
+    "updated_at": "2023-05-25",
+    "text": "# Meeting notes\nSubmit via the portal.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D047",
+    "title": "Meeting notes (it)",
+    "domain": "it",
+    "source": "it/meeting_notes_8.txt",
+    "updated_at": "2025-01-28",
+    "text": "Approval required: Director.\nApproval required: Director.\nApproval required: Director."
+  },
+  {
+    "doc_id": "D048",
+    "title": "FAQ fragment (hr)",
+    "domain": "hr",
+    "source": "hr/faq_fragment_1.txt",
+    "updated_at": "2025-08-31",
+    "text": "FAQ FRAGMENT\nApproval required: Director.\nApproval required: Director.\nApproval required: Director.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D049",
+    "title": "Meeting notes (travel)",
+    "domain": "travel",
+    "source": "travel/meeting_notes_2.txt",
+    "updated_at": "2024-11-26",
+    "text": "Limit: $75 per trip.\nLimit: $75 per trip.\nLimit: $75 per trip.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D050",
+    "title": "Deprecated page (finance)",
+    "domain": "finance",
+    "source": "finance/deprecated_page_4.txt",
+    "updated_at": "2022-09-13",
+    "text": "# Deprecated page\nSee also: Expense Reimbursement Policy."
+  },
+  {
+    "doc_id": "D051",
+    "title": "Policy addendum (travel)",
+    "domain": "travel",
+    "source": "travel/policy_addendum_9.txt",
+    "updated_at": "2024-03-04",
+    "text": "See also: Expense Reimbursement Policy.\nSee also: Expense Reimbursement Policy.\nSee also: Expense Reimbursement Policy."
+  },
+  {
+    "doc_id": "D052",
+    "title": "Runbook note (it)",
+    "domain": "it",
+    "source": "it/runbook_note_5.txt",
+    "updated_at": "2023-05-20",
+    "text": "This page may be outdated.\n----\nThis page may be outdated."
+  },
+  {
+    "doc_id": "D053",
+    "title": "Policy addendum (it)",
+    "domain": "it",
+    "source": "it/policy_addendum_9.txt",
+    "updated_at": "2024-06-16",
+    "text": "# Policy addendum\nSLA: 2 business days.\n----\nSLA: 2 business days."
+  },
+  {
+    "doc_id": "D054",
+    "title": "FAQ fragment (hr)",
+    "domain": "hr",
+    "source": "hr/faq_fragment_9.txt",
+    "updated_at": "2022-01-01",
+    "text": "Escalate to your manager if blocked.\nEscalate to your manager if blocked.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D055",
+    "title": "Deprecated page (it)",
+    "domain": "it",
+    "source": "it/deprecated_page_9.txt",
+    "updated_at": "2024-04-07",
+    "text": "Limit: $75 per trip.\nLimit: $75 per trip.\nLimit: $75 per trip."
+  },
+  {
+    "doc_id": "D056",
+    "title": "Policy addendum (security)",
+    "domain": "security",
+    "source": "security/policy_addendum_9.txt",
+    "updated_at": "2025-01-27",
+    "text": "Escalate to your manager if blocked.\nEscalate to your manager if blocked.\n----\nEscalate to your manager if blocked."
+  },
+  {
+    "doc_id": "D057",
+    "title": "FAQ fragment (it)",
+    "domain": "it",
+    "source": "it/faq_fragment_5.txt",
+    "updated_at": "2023-02-10",
+    "text": "Approval required: Director.\nApproval required: Director.\n----\nReceipts within 45 days."
+  },
+  {
+    "doc_id": "D058",
+    "title": "FAQ fragment (sre)",
+    "domain": "sre",
+    "source": "sre/faq_fragment_5.txt",
+    "updated_at": "2025-09-12",
+    "text": "Limit: $75 per trip.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D059",
+    "title": "FAQ fragment (finance)",
+    "domain": "finance",
+    "source": "finance/faq_fragment_9.txt",
+    "updated_at": "2021-12-27",
+    "text": "Approval required: Director.\nApproval required: Director.\n----\nLimit: $60 per trip."
+  },
+  {
+    "doc_id": "D060",
+    "title": "Deprecated page (sre)",
+    "domain": "sre",
+    "source": "sre/deprecated_page_6.txt",
+    "updated_at": "2022-09-06",
+    "text": "DEPRECATED PAGE\nApproval required: Director."
+  }
+]

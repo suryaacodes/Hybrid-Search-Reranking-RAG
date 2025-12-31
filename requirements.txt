@@ -1,0 +1,14 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+python-dotenv==1.0.1
+
+# Retrieval stack
+rank-bm25==0.2.2
+rapidfuzz==3.9.6
+
+# Dense + reranker (pins to avoid numpy/scipy breakage)
+numpy==1.26.4
+scipy==1.11.4
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1

@@ -1,0 +1,5 @@
+{"id": "E01", "question": "What is the deadline to submit expense receipts?", "gold_phrase": "within 30 days", "gold_sources": ["policy/finance/expense_policy.md"]}
+{"id": "E02", "question": "Are alcoholic drinks reimbursable?", "gold_phrase": "Alcohol is not reimbursable", "gold_sources": ["policy/finance/expense_policy.md", "policy/finance/meals.md"]}
+{"id": "E03", "question": "What approvals are needed if I submit an expense 75 days late?", "gold_phrase": "VP approval", "gold_sources": ["policy/finance/expense_policy.md"]}
+{"id": "E04", "question": "What is the airport rideshare reimbursement limit?", "gold_phrase": "up to $75", "gold_sources": ["policy/travel/travel_quick_ref.txt"]}
+{"id": "E05", "question": "How long is the SLA for standard SSO access requests?", "gold_phrase": "1 business day", "gold_sources": ["runbooks/it/sso_access.md"]}

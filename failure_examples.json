@@ -1,0 +1,32 @@
+[
+  {
+    "query": "What is the airport rideshare reimbursement limit?",
+    "why_failed": "Dense retrieval often matched 'local limits' because it shares keywords (airport, limit, trip) and the outdated doc is shorter/denser. BM25 also overweighted the exact '$60' line in the old page.",
+    "what_changed": "Increased BM25 weight slightly and bumped rerank_k so the travel policy chunk stays in the candidate pool; also added a 'freshness' note in docs to help spot outdated sources.",
+    "reranking_effect": "Reranker helped once the correct travel chunk was present; it did not help when candidate pool missed it."
+  },
+  {
+    "query": "Is alcohol reimbursable at a client dinner?",
+    "why_failed": "The old expense policy contains a contradictory exception. Retrieval sometimes surfaced the outdated policy first.",
+    "what_changed": "Added duplicate/outdated docs on purpose + documented that we need source freshness handling. In the short term, we return top sources with updated_at so humans can spot conflicts.",
+    "reranking_effect": "Reranker often prefers the longer v2 clause, but can still be tricked if the query includes 'client present'."
+  },
+  {
+    "query": "What happens if I submit receipts after 30 days?",
+    "why_failed": "The approval ladder spans multiple bullet points; without enough overlap, chunking split the ladder.",
+    "what_changed": "Raised overlap from 80→120 and ensured chunking respects heading boundaries (chunking.py).",
+    "reranking_effect": "Reranker helped select the chunk containing the full ladder after overlap fix."
+  },
+  {
+    "query": "Can I book premium economy for a 6.5 hour flight?",
+    "why_failed": "Boundary questions are sensitive: '<6 hours' vs '6–10 hours' rule. Retrieval sometimes grabbed the 'under 6 hours' line only.",
+    "what_changed": "Raised rerank_k and returned more hits to let the answer compose across two chunks. Added eval case to catch regressions.",
+    "reranking_effect": "Reranker helped, but the best fix was returning multiple hits."
+  },
+  {
+    "query": "How do I escalate a blocked SSO login?",
+    "why_failed": "Some docs are one-liners and share 'blocked' and 'escalate' language; retrieval can return generic notes.",
+    "what_changed": "Lowered dense_k slightly to reduce noisy candidates and increased bm25_k for exact '#it-helpdesk' token match.",
+    "reranking_effect": "Reranker helped once '#it-helpdesk' was in candidates; otherwise BM25 is the key."
+  }
+]
