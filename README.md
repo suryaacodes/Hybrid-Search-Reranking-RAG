@@ -1,4 +1,4 @@
-# Enterprise RAG 
+# Hybrid-Search-Reranking-RAG 
 
 This repo is a small RAG system you can run locally.
 
