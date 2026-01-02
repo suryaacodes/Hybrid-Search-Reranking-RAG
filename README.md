@@ -20,6 +20,22 @@ Answer internal-style policy/runbook questions with citations.
 - `/ingest`: build an index from `data/sample_docs.json`
 - `/search`: hybrid retrieval (BM25 + dense) + cross-encoder reranking
 - `/ask`: retrieval + prompt payload (answering is a separate step you can swap)
+- **High-level architecture**
+Documents
+   ↓
+Chunking (semantic + overlap)
+   ↓
+Indexing
+   ├─ Sparse index (BM25)
+   └─ Dense index (embeddings)
+        ↓
+Hybrid Retrieval (weighted merge)
+        ↓
+Reranking (cross-encoder)
+        ↓
+Top-K context + citations
+        ↓
+(Optional) LLM answering
 
 ## Quickstart
 
